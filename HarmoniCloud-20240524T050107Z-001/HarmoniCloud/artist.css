@@ -23,7 +23,7 @@ body {
 
 /******************************** left-section *****************************/
 .header-container .left-side {
-    width: 300px;
+    width: 350px;
     padding-top: 15px;
     margin-left: 40px;
     display: flex;
@@ -35,7 +35,6 @@ body {
     /* margin-top: 25px; */
     width: 80px;
     border-radius: 50%;
-padding: 30px;
 }
 
 .left-side h3 {
@@ -52,6 +51,30 @@ padding: 30px;
     font-family: 'Comfortaa', cursive;
     font-weight: 400;
     font-size: 25px;
+    color: #C51230;
+}
+
+.about-cont p{
+    color: white;
+    line-height: 40px;
+}
+.about-cont h3{
+    color: white;
+}
+.about-cont{
+    position: absolute;
+    top: 15%;
+}
+
+.left-side a {
+    margin-left: 50px;
+    display: inline-block;
+    color: #015CC8;
+    cursor: pointer;
+    padding: 10
+}
+
+.left-side a:hover {
     color: #C51230;
 }
 
