@@ -13,6 +13,22 @@
   color: white;
 
 }
+.footer-cont h3{
+text-align: center;
+}
+footer{
+color: white;
+position: static;
+list-style: none;
+
+}
+.copy{
+  margin: 20px;
+}
+.footer-cont ul{
+  line-height: 50px;
+list-style: none;
+}
 body::-webkit-scrollbar{
   width: 0.25rem;
 }
@@ -74,6 +90,11 @@ body::-webkit-scrollbar-thumb{
   vertical-align: top;
   margin-bottom: 50px;
 
+}
+
+body{
+  padding: 0;
+  margin: 0;
 }
 
 .artist-page button {
